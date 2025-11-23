@@ -79,6 +79,27 @@ header {
     font-family: "Georgia", serif;
     letter-spacing: 3px;
     transition: 0.3s ease;
+     animation: zoom 1s ease-out forwards, neonGlow 1s infinite alternate;
+}
+
+@keyframes zoom {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes neonGlow {
+    0% {
+        text-shadow: 0 0 5px #00ff37, 0 0 10px #00ff37;
+    }
+    100% {
+        text-shadow: 0 0 12px #00ff37, 0 0 18px #00ff37;
+    }
 }
 
 .hero p {
