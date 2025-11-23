@@ -14,7 +14,7 @@ Fully responsive layout, cinematic hero background, neon theme & modern navbar.
 ## Tech Stack
 HTML5
 CSS3
-Google Fonts
 Background Image Assets
 
 ## Live Demo
+ https://wasim2934.github.io/gaming-landing-page-ui/
