@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #000;
+    color: white;
+    background-image: url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+header {
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 80px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 1.5px;
+    background: #00ff37;
+    transition: 0.4s ease;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar ul li a:hover {
+    color:  #00ff37;
+    border-bottom: #00ff37;
+}
+
+.hero {
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}
+
+.hero h1 {
+    font-size: 75px;
+    font-family: "Georgia", serif;
+    letter-spacing: 3px;
+    transition: 0.3s ease;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 12px 33px 4px; 
+    letter-spacing: 2px;
+}
+
+.hero button {
+    padding: 12px 32px;
+    font-size: 15px;
+    border: 2px solid #00ff37;
+    background: transparent;
+    color: #00ff37;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #00ff37;
+    color: black;
+    transform: scale(1.08);
+}
+
+@media (max-width: 800px) {
+    .hero h1 {
+        font-size: 60px;
+    }
+}
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 515px) {
+    .hero h1 {
+        font-size: 40px;
+    } 
+    .navbar ul li {
+        font-size: 12px;
+    }
+} 
+@media (max-width: 415px) {
+    .hero h1 {
+        font-size: 30px;
+    } 
+    .navbar ul li {
+       font-size: 10px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
