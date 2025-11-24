@@ -3,6 +3,8 @@
  A futuristic gaming landing page UI inspired by AAA shooter games — built using HTML & CSS only.
  Fully responsive layout, cinematic hero background, neon theme & modern navbar.
 
+## Live Demo - https://wasim2934.github.io/gaming-landing-page-ui/
+ 
 # Features
 - Modern Gaming UI
 - Transparent Navigation Bar
@@ -16,5 +18,3 @@
 - CSS3
 - Background Image Assets
 
-## Live Demo
- https://wasim2934.github.io/gaming-landing-page-ui/
